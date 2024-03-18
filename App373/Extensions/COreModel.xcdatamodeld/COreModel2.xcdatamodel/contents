@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G513" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="IngredientsModel" representedClassName="IngredientsModel" syncable="YES" codeGenerationType="class">
+        <attribute name="iCost" optional="YES" attributeType="String"/>
+        <attribute name="iName" optional="YES" attributeType="String"/>
+        <attribute name="iQuantity" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanModel" representedClassName="PlanModel" syncable="YES" codeGenerationType="class">
+        <attribute name="planBaker" optional="YES" attributeType="String"/>
+        <attribute name="planDescription" optional="YES" attributeType="String"/>
+        <attribute name="planNumber" optional="YES" attributeType="String"/>
+        <attribute name="planProducts" optional="YES" attributeType="String"/>
+        <attribute name="planQuantity" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SalesModel" representedClassName="SalesModel" syncable="YES" codeGenerationType="class"/>
+    <entity name="StaffModel" representedClassName="StaffModel" syncable="YES" codeGenerationType="class">
+        <attribute name="staffName" optional="YES" attributeType="String"/>
+        <attribute name="staffPost" optional="YES" attributeType="String"/>
+        <attribute name="staffSalary" optional="YES" attributeType="String"/>
+        <attribute name="staffStars" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>
